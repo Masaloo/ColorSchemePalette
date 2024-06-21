@@ -1,0 +1,6 @@
+{
+    "name": "ColorSchemePalette",
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ]
+}
