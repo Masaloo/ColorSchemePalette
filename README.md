@@ -1,2 +1,3 @@
-# This is ReadMeText
-Text aaa
+# 概要
+* 色彩検定などを参考にした、配色理論に基づいた色の選択をサポートします。
+* ScriptableObjectなどを
