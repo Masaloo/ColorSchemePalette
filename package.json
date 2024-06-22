@@ -1,13 +1,23 @@
 {
-    "name": "jp.mas4loo.colorschemepalette",
-    "version": "0.1.0",
-    "displayName": "Color Scheme Palette",
-    "description": "Management Color Scheme",
-    "unity": "2023.3",
+  "name": "jp.mas4loo.colorschemepalette",
+  "version": "0.1.0",
+  "displayName": "Color Scheme Palette",
+  "description": "Management Color Scheme",
+  "keywords": [],
+  "author": {
+    "name": "mas4loo"
+  },
+  "unity": "2022.3",
+  "optionalDependencies": {
+    "com.unity.visualeffectgraph": "10.4.0"
+  },
 
-    "keywords": [
-    ],
-    "author": {
-      "name": "mas4loo"
-    }
+  "samples": [
+  {
+    "displayName": "Sample 1",
+    "description": "Simple UseCase",
+    "path": "Samples~/Sample1"
   }
+  ]
+  
+}
