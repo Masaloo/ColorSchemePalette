@@ -1,8 +1,9 @@
 {
     "name": "ColorSchemePalette.VisualEffectGraph.Runtime",
-    "rootNamespace": "",
+    "rootNamespace": "Mas4loo.ColorSchemePalette.VisualEffectGraph.Runtime",
     "references": [
-        "GUID:d04eb9c554ad44ceab303cecf0c0cf82"
+        "GUID:d04eb9c554ad44ceab303cecf0c0cf82",
+        "GUID:c4f9f54d041246e488548369c1dae438"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba1deebe806475142be9751772df3231, type: 3}
+  m_Name: Sample DominantTone
+  m_EditorClassIdentifier: 
+  BaseColor: {r: 0, g: 0.5399337, b: 1, a: 1}
+  Colors:
+  - {r: 0, g: 0.5399337, b: 1, a: 1}
+  - {r: 0.9600663, g: 0, b: 1, a: 1}
+  - {r: 1, g: 0.4600668, b: 0, a: 1}
+  - {r: 0.039933205, g: 1, b: 0, a: 1}
+  SplitResolution: 4

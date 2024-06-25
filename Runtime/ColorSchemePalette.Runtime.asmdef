@@ -1,6 +1,6 @@
 {
     "name": "ColorSchemePalette.Runtime",
-    "rootNamespace": "",
+    "rootNamespace": "Mas4loo.ColorSchemePalettes",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
