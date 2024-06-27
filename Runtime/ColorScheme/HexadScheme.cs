@@ -9,7 +9,7 @@ namespace Mas4loo.ColorSchemePalettes
     {
         public override List<Color> GetColors(Color baseColor)
         {
-            List<Color> colors = new List<Color>()
+            List<Color> colors = new()
             {
                 baseColor,
                 baseColor.HSVOffset(1.0f/6 * 1,0,0),
