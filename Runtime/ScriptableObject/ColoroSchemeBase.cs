@@ -13,16 +13,18 @@ namespace Mas4loo.ColorSchemePalettes
         public Gradient Gradient;
         public GradientMode GradientMode = GradientMode.PerceptualBlend;
 
+        public const int MAX_COLOR_KEY_COUNT = 8;
+
         public abstract List<Color> GetColors(Color baseColor);
 
         Gradient BakeGradient()
         {
-            int count = Colors.Count;
+            int count = Colors.Count <= MAX_COLOR_KEY_COUNT ? Colors.Count : MAX_COLOR_KEY_COUNT;
 
             var colorkeys = new GradientColorKey[count];
             var alphakeys = new GradientAlphaKey[1];
 
-            int index = Colors.Count;
+            int index = Colors.Count <= MAX_COLOR_KEY_COUNT ? Colors.Count : MAX_COLOR_KEY_COUNT;
 
             alphakeys[0].alpha = 1.0f;
             for(int i = 0; i < index;i++)

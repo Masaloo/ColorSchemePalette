@@ -8,7 +8,7 @@
     "name": "mas4loo"
   },
   "unity": "2022.3",
-  "optionalDependencies": {
+  "dependencies": {
     "com.unity.visualeffectgraph": "10.4.0"
   },
 

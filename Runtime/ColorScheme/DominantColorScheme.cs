@@ -6,7 +6,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "ColorScheme", menuName = "ColorPalette/DominantColorScheme")]
 public class DominantColorScheme : ColorSchemeBase
 {
-    public int SplitResolution = 2;
+    [Range(2,MAX_COLOR_KEY_COUNT)]public int SplitResolution = 2;
 
     public override List<Color> GetColors(Color baseColor)
     {
