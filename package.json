@@ -1,11 +1,11 @@
 {
-  "name": "jp.mas4loo.colorschemepalette",
+  "name": "jp.masaloo.colorschemepalette",
   "version": "0.1.0",
   "displayName": "Color Scheme Palette",
   "description": "Management Color Scheme",
   "keywords": [],
   "author": {
-    "name": "mas4loo"
+    "name": "masaloo"
   },
   "unity": "2022.3",
   "dependencies": {
@@ -15,9 +15,33 @@
   "samples": [
   {
     "displayName": "Sample 1",
-    "description": "Simple UseCase",
-    "path": "Samples~/Sample1"
+    "description": "Sample ColorScheme ScriptableObjects",
+    "path": "Samples~/Sample1-ScriptableObjects"
+  },
+  {
+    "displayName": "Sample 2",
+    "description": "Binding ColorScheme to SpriteRenderer ",
+    "path": "Samples~/Sample2-SpriteRenderer Color"
+  },
+  {
+    "displayName": "Sample 3",
+    "description": "Binding ColorScheme to Renderer.material",
+    "path": "Samples~/Sample3-RendererMaterial"
+  },
+  {
+    "displayName": "Sample 4",
+    "description": "Binding ColorScheme at VFXPropertyBinder",
+    "path": "Samples~/Sample4-VFX PropertyBinder"
+  },
+  {
+    "displayName": "Sample 5",
+    "description": "Binding ColorScheme to Camera.backgroundColor",
+    "path": "Samples~/Sample5-Camera BackgroundColor1"
+  },
+  {
+    "displayName": "Sample 6",
+    "description": "Binding ColorScheme to TrailRenderer.colorGradient",
+    "path": "Samples~/Sample6-TrailRenderer"
   }
   ]
-  
 }
