@@ -8,7 +8,7 @@ public class DominantColorScheme : ColorSchemeBase
 {
     [Range(2,MAX_COLOR_KEY_COUNT)]public int SplitResolution = 2;
 
-    public override List<Color> GetColors(Color baseColor)
+    public override List<Color> BakeColor(Color baseColor)
     {
         List<Color> colors = new();
 

@@ -7,8 +7,8 @@ using UnityEngine;
 public class DominantToneScheme : ColorSchemeBase
 {
     public int SplitResolution = 4;
-
-    public override List<Color> GetColors(Color baseColor)
+    public bool IsCreateMonoToneColor = false;
+    public override List<Color> BakeColor(Color baseColor)
     {
         List<Color> colors = new();
         Vector3 mainHSV = baseColor.ToHSV();
@@ -24,6 +24,16 @@ public class DominantToneScheme : ColorSchemeBase
             Vector3 hsv = new(mainHSV.x + hueOffset, saturate, value);
             colors.Add(hsv.ToRGB());
         }
+
+        if( IsCreateMonoToneColor )
+        {
+            Vector3 mono1 = new(0, 0, value);
+            colors.Add(mono1.ToRGB());
+
+            Vector3 mono2 = new(0, 0, 1 - value);
+            colors.Add(mono2.ToRGB());
+        }
+
         return colors;
     }
 }

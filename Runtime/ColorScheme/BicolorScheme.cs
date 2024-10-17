@@ -9,7 +9,7 @@ namespace Mas4loo.ColorSchemePalettes
     {
         public SubColorType subColor;
 
-        public override List<Color> GetColors(Color baseColor)
+        public override List<Color> BakeColor(Color baseColor)
         {
             var colors = new List<Color>()
             { 

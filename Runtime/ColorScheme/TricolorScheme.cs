@@ -12,7 +12,7 @@ namespace Mas4loo.ColorSchemePalettes
         [Header("MonoSubColor Only")]
         [Range(-1f, 1f)] public float HueOffset = 0f;
         [Range(0, 1f)] public float MonoColorValueOffset;
-        public override List<Color> GetColors(Color baseColor)
+        public override List<Color> BakeColor(Color baseColor)
         {
             var colors = new List<Color>()
             { baseColor };

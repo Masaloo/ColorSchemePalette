@@ -15,7 +15,18 @@ namespace Mas4loo.ColorSchemePalettes
 
         public const int MAX_COLOR_KEY_COUNT = 8;
 
-        public abstract List<Color> GetColors(Color baseColor);
+        public Color GetColor(int i)
+        {
+            int len = Colors.Count;
+            if (len < i)
+            {
+                 i = i % len;
+            }
+
+            return Colors[i];
+        }
+
+        public abstract List<Color> BakeColor(Color baseColor);
 
         Gradient BakeGradient()
         {
@@ -46,7 +57,7 @@ namespace Mas4loo.ColorSchemePalettes
         void BakeColors()
         {
             Colors.Clear();
-            Colors = GetColors(BaseColor);
+            Colors = BakeColor(BaseColor);
         }
 
         #region ScriptableObject Message Methods

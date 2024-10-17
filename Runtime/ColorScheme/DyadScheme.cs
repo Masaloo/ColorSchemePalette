@@ -7,7 +7,7 @@ namespace Mas4loo.ColorSchemePalettes
     [CreateAssetMenu(fileName = "ColorScheme", menuName = "ColorPalette/" + nameof(DyadScheme))]
     public class DyadScheme : ColorSchemeBase
     {
-        public override List<Color> GetColors(Color baseColor)
+        public override List<Color> BakeColor(Color baseColor)
         {
             List<Color> colors = new List<Color>()
             {
